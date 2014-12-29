@@ -6,3 +6,4 @@ RUN \
   gem install rack guillotine && \
   mkdir -p /app/config
 
+ADD config.ru /app/config.ru

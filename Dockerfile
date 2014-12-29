@@ -6,4 +6,3 @@ RUN \
   gem install rack guillotine && \
   mkdir -p /app/config
 
-EXPOSE 80

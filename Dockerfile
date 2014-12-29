@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM base/archlinux:latest
 MAINTAINER Sean Payne <seantpayne@gmail.com>
 
 RUN \

@@ -8,3 +8,4 @@ RUN \
 
 ADD config.ru /app/config.ru
 ADD app.rb /app/app.rb
+ADD start.sh /app/start.sh

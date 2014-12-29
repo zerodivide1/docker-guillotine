@@ -7,3 +7,4 @@ RUN \
   mkdir -p /app/config
 
 ADD config.ru /app/config.ru
+ADD app.rb /app/app.rb

@@ -3,6 +3,7 @@ MAINTAINER Sean Payne <seantpayne@gmail.com>
 
 RUN \
   pacman -Syuq --noprogress --noconfirm ruby && \
+  export PATH=$PATH:/.gem/ruby/2.1.0/bin && \
   gem install rack guillotine && \
   mkdir /app
 

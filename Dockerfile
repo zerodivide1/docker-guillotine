@@ -11,6 +11,6 @@ ADD config.ru /app/config.ru
 ADD app.rb /app/app.rb
 ADD start.sh /app/start.sh
 
-EXPOSE 9292
+EXPOSE 8080
 
 CMD ["/app/start.sh"]

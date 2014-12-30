@@ -6,7 +6,7 @@ module MyApp
     set :service => Guillotine::Service.new(adapter)
 
     get '/' do
-      redirect 'http://www.seanpayne.name'
+      redirect 'https://google.com'
     end
   end
 end

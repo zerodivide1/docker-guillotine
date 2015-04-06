@@ -1,2 +1,2 @@
-FROM dockerfile/ruby-runtime
+FROM ruby
 MAINTAINER Sean Payne <seantpayne@gmail.com>
